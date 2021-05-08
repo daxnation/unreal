@@ -11,14 +11,14 @@ Configuration for this is not quite covered correctly in the ReadMe that comes w
   2. Under Unreal Tournament 2004\System, open the User.ini file
   3. In two places, the string InputClass=Class'EnginePlayerInput' needs to be commented out using ; and this line must be added: InputClass=Class'foxWSFix.foxPlayerInput' - the lines should look like this once done
 
-  '''
+  '''INI
   [Engine.PlayerController]
   ...
   ;InputClass=Class'Engine.PlayerInput'
   InputClass=Class'foxWSFix.foxPlayerInput'
   '''
   
-  '''
+  '''INI
   [UnrealGame.UnrealPlayer]
   ...
   ;InputClass=Class'Engine.PlayerInput'
