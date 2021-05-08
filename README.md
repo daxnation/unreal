@@ -10,18 +10,18 @@ Configuration for this is not quite covered correctly in the ReadMe that comes w
   1. Extract the 7z archive to the root of your UT2K4 folder, so path\to\Unreal Tournament 2004
   2. Under Unreal Tournament 2004\System, open the User.ini file
   3. In two places, the string InputClass=Class'EnginePlayerInput' needs to be commented out using ; and this line must be added: InputClass=Class'foxWSFix.foxPlayerInput' - the lines should look like this once done
-    '
+    '''
     [Engine.PlayerController]
     ...
     ;InputClass=Class'Engine.PlayerInput'
     InputClass=Class'foxWSFix.foxPlayerInput'
-    '
-    '
+    '''
+    '''
     [UnrealGame.UnrealPlayer]
     ...
     ;InputClass=Class'Engine.PlayerInput'
     InputClass=Class'foxWSFix.foxPlayerInput'
-    '
+    '''
   NOTE: If either of the sections in the INI file listed above is missing the initial string, the new string must still be added to that section
   
 PC Gaming Wiki Performance Improvements: https://www.pcgamingwiki.com/wiki/Unreal_Tournament_2004#Performance_improvements
