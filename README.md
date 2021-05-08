@@ -18,12 +18,12 @@ Configuration for this is not quite covered correctly in the ReadMe that comes w
   InputClass=Class'foxWSFix.foxPlayerInput'
   '''
   
-  '''INI
+  ''''INI
   [UnrealGame.UnrealPlayer]
   ...
   ;InputClass=Class'Engine.PlayerInput'
   InputClass=Class'foxWSFix.foxPlayerInput'
-  '''
+  ''''
   
   NOTE: If either of the sections in the INI file listed above is missing the initial string, the new string must still be added to that section
   
