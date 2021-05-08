@@ -3,8 +3,9 @@
 ## Server Settings
 Server settings are located in **ut2k4server.ini**
 
-IMPORTANT: Increase your network speed to modern numbers! Find your game's install folder, and edit System\User.ini.
-Look for the [Engine.Player] section, and for both Speed numbers below, add two 0's - e.g. mulitply by 100. 
+## Network Speed Changes
+**IMPORTANT:** Increase your network speed to modern numbers! Find your game's install folder, and edit System\User.ini.
+Look for the [Engine.Player] section, and for both Speed numbers below, add two 0's - e.g. mulitply by 100. This allows your client to download new maps from the server at a much more modern speed.
 
 ## Improved widescreen support for Unreal Tournament 2004
 https://github.com/alexstrout/foxWSFix-UT2k4.git
